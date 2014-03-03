@@ -1,0 +1,755 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gr",
+				"gre	grep(/pattern/) { |match| .. }"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"re",
+				"registrations"
+			],
+			[
+				"regi",
+				"registration"
+			],
+			[
+				"li",
+				"lica	link_to (controller, action)"
+			],
+			[
+				"each",
+				"each	Ruby each"
+			],
+			[
+				"def",
+				"def	def … end"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"if",
+				"ife	if … else … end"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"p",
+				"primary-color"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"E",
+				"Events"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"im",
+				"image_file_name"
+			],
+			[
+				"st",
+				"starts_at"
+			],
+			[
+				"t",
+				"td	Tag"
+			],
+			[
+				"u",
+				"ul"
+			],
+			[
+				"furcons",
+				"furcons"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"mod",
+				"mod	module .. end"
+			],
+			[
+				"get",
+				"get_mod"
+			],
+			[
+				"m",
+				"multi"
+			],
+			[
+				"cla",
+				"cla	class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"gam",
+				"GameSystem"
+			],
+			[
+				"mo",
+				"MovieSystem"
+			],
+			[
+				"Movi",
+				"MovieSystem"
+			],
+			[
+				"ver",
+				"VERSION"
+			],
+			[
+				"su",
+				"super"
+			],
+			[
+				"Movie",
+				"movie3d"
+			],
+			[
+				"movie",
+				"movie3d"
+			],
+			[
+				"File",
+				"File	File.open(\"..\") { |file| .. }"
+			],
+			[
+				"kn",
+				"Knuckleheads"
+			],
+			[
+				"rec",
+				"received_pledge"
+			],
+			[
+				"foun",
+				"found_treasure"
+			],
+			[
+				"ca",
+				"carbs"
+			],
+			[
+				"fou",
+				"found_treasure"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"Ple",
+				"pledge"
+			],
+			[
+				"player",
+				"player_list"
+			],
+			[
+				"fl",
+				"flops"
+			],
+			[
+				"initial_",
+				"initial_health"
+			],
+			[
+				"tar",
+				"target_fund"
+			],
+			[
+				"pla",
+				"Playlist"
+			],
+			[
+				"initial",
+				"initial_health"
+			],
+			[
+				"ini",
+				"initial_rank"
+			],
+			[
+				"sh",
+				"should"
+			],
+			[
+				"initia",
+				"initial_fund"
+			],
+			[
+				"w0",
+				"w00t"
+			],
+			[
+				"bl",
+				"blam"
+			],
+			[
+				"ran",
+				"rank"
+			],
+			[
+				"ra",
+				"rank"
+			],
+			[
+				"th",
+				"thumbs_down"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/production.rb",
+			"settings":
+			{
+				"buffer_size": 3249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 211,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/RSpec/RSpec.sublime-build",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"package i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"m",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <?php … ?>"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: rspe",
+				"Snippet: subject - Rspec subject helper"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/rails_studio/crowdfund/README.md",
+		"/C/rails_studio/events/bin/rake",
+		"/C/rails_studio/events/bin/rails",
+		"/C/rails_studio/events/bin/bundle",
+		"/C/rails_studio/events/app/views/layouts/_footer.html.erb",
+		"/C/rails_studio/events/config/application.rb",
+		"/C/Ruby200/lib/ruby/gems/2.0.0/gems/i18n-0.6.9/test/i18n_test.rb",
+		"/C/rails_studio/events/.gitignore",
+		"/C/rails_studio/crowdfund/Gemfile",
+		"/C/rails_studio/events/app/views/registrations/index.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/db/schema.rb",
+		"/C/rails_studio/events/spec/features/list_registrations_spec.rb",
+		"/C/rails_studio/events/spec/features/edit_event_spec.rb",
+		"/C/rails_studio/events/spec/features/show_event_spec.rb",
+		"/C/rails_studio/events/spec/features/navigate_events_spec.rb",
+		"/C/rails_studio/events/spec/features/create_event_spec.rb",
+		"/C/rails_studio/events/app/views/events/show.html.erb",
+		"/C/rails_studio/events/spec/features/delete_event_spec.rb",
+		"/C/rails_studio/events/spec/helpers/registrations_helper_spec.rb",
+		"/C/rails_studio/events/db/seeds.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/exercise-solutions/24-one-to-many-logic/flix/db/seeds.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/db/seeds.rb",
+		"/C/rails_studio/events/app/helpers/registrations_helper.rb",
+		"/C/rails_studio/events/spec/spec_helper.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/spec_helper.rb",
+		"/C/rails_studio/events/spec/support/attributes.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/support/attributes.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/models/registration_spec.rb",
+		"/C/rails_studio/events/spec/models/registration_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/models/event_spec.rb",
+		"/C/rails_studio/events/spec/models/event_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/helpers/registrations_helper_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/helpers/events_helper_spec.rb",
+		"/C/rails_studio/events/spec/helpers/events_helper_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/features/show_event_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/features/navigate_events_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/features/list_registrations_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/features/edit_event_spec.rb",
+		"/C/rails_studio/events/spec/features/list_events_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/features/list_events_spec.rb",
+		"/C/rails_studio/events/spec/features/create_registration_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/features/create_registration_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/features/delete_event_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/spec/features/create_event_spec.rb",
+		"/C/rails_studio/events/app/views/shared/_errors.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/shared/_errors.html.erb",
+		"/C/rails_studio/events/app/views/registrations/show.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/registrations/new.html.erb",
+		"/C/rails_studio/events/app/views/registrations/_form.html.erb",
+		"/C/rails_studio/events/app/views/registrations/new.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/registrations/index.html.erb",
+		"/C/rails_studio/events/app/views/registrations/edit.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/layouts/application.html.erb",
+		"/C/rails_studio/events/app/views/layouts/application.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/layouts/_sidebar.html.erb",
+		"/C/rails_studio/events/app/views/layouts/_sidebar.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/layouts/_header.html.erb",
+		"/C/rails_studio/events/app/views/layouts/_header.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/layouts/_footer.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/layouts/_flashes.html.erb",
+		"/C/rails_studio/events/app/views/layouts/_flashes.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/events/show.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/events/index.html.erb",
+		"/C/rails_studio/events/app/views/events/index.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/events/_form.html.erb",
+		"/C/rails_studio/events/app/views/events/_form.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/events/edit.html.erb",
+		"/C/rails_studio/events/app/views/events/edit.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/views/events/new.html.erb",
+		"/C/rails_studio/events/app/views/events/new.html.erb",
+		"/C/rails_studio/events/app/models/event.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/models/event.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/models/registration.rb",
+		"/C/rails_studio/events/app/models/registration.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/helpers/registrations_helper.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/helpers/events_helper.rb",
+		"/C/rails_studio/events/app/helpers/events_helper.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/helpers/application_helper.rb",
+		"/C/rails_studio/events/app/helpers/application_helper.rb",
+		"/C/rails_studio/events/app/controllers/registrations_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/controllers/registrations_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/controllers/events_controller.rb",
+		"/C/rails_studio/events/app/controllers/events_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/24-one-to-many-logic/events/app/controllers/application_controller.rb",
+		"/C/rails_studio/events/app/controllers/application_controller.rb",
+		"/C/Users/Gabby/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/rails_studio/events/spec/features/show_registration_spec.rb",
+		"/C/rails_studio/events/spec/features/delete_registration_spec.rb",
+		"/C/rails_studio/events/spec/features/edit_registration_spec.rb",
+		"/C/rails_studio/events/config/routes.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/23-one-to-many-forms/events/spec/support/attributes.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/example-app/23-one-to-many-forms/events/spec/models/registration_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/23-one-to-many-forms/events/app/views/registrations/new.html.erb",
+		"/C/Users/Gabby/AppData/Roaming/Sublime Text 2/Packages/User/erbs.sublime-snippet",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/21-one-to-many-models/events/db/seeds.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/21-one-to-many-models/events/app/controllers/events_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/21-one-to-many-models/events/app/controllers/application_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/21-one-to-many-models/events/app/models/registration.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/21-one-to-many-models/events/db/schema.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/20-flash/events/app/views/layouts/_flashes.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/20-flash/events/app/controllers/events_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/20-flash/events/app/views/layouts/application.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/20-flash/events/app/views/events/edit.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/20-flash/events/app/views/events/_form.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/19-validations-2/events/app/views/shared/_errors.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/19-validations-2/events/app/views/events/_form.html.erb",
+		"/C/rails_studio/events/app/assets/stylesheets/layout.css.scss",
+		"/C/rails_studio/events/Gemfile.lock",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/spec/features/list_events_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/17-assets/events/spec/features/list_events_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/views/layouts/application.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/views/layouts/_sidebar.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/views/layouts/_header.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/views/layouts/_footer.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/views/events/show.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/views/events/new.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/views/events/index.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/views/events/edit.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/views/events/_form.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/models/event.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/helpers/events_helper.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/helpers/application_helper.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/controllers/events_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/example-app/18-blue-peter/events/app/controllers/application_controller.rb",
+		"/C/rails_studio/events/app/assets/stylesheets/forms.css.scss",
+		"/C/rails_studio/events/app/assets/stylesheets/normalize.css",
+		"/C/rails_studio/events/app/assets/stylesheets/elements.css.scss",
+		"/C/rails_studio/events/app/assets/stylesheets/buttons.css.scss"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Ruby200",
+			"C:\\rails_studio",
+			"<open folders>",
+			"<open folders>logo",
+			"C:\\Users\\Gabby\\Ruby\\The Pragmatic Studio\\Ruby on Rails Programming\\pragstudio-rails-code\\pragstudio-rails-code\\example-app\\18-blue-peter",
+			"C:\\rails_studio\\events",
+			"C:\\rails_studio"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"  ",
+			"I18n.config.enforce_available_locales",
+			"I18n.enforce_available_locales = ",
+			"I18n.enforce",
+			"  ",
+			"		@event = Event.find(params[:event_id])",
+			"@event",
+			"  ",
+			"'",
+			"  ",
+			"logo",
+			"  ",
+			"content",
+			"content-header",
+			"  ",
+			"PRAGMATIC EVENTS",
+			"  ",
+			"#F0F0F0",
+			"#237CBE",
+			"237CBE",
+			";\n",
+			"  ",
+			"f.",
+			"  ",
+			"		$stdout = StringIO.new",
+			"  ",
+			"   ",
+			"  ",
+			"	",
+			"  ",
+			"Moe",
+			"moe",
+			"100",
+			"Playlist",
+			"..",
+			"Player",
+			"player",
+			"Movie",
+			"movie",
+			"Operations",
+			"knuckleheads",
+			"'",
+			"build",
+			"'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"	",
+			"e.",
+			"	",
+			"Larry",
+			"larry",
+			"150",
+			"Game",
+			"tab",
+			"Project",
+			"project",
+			"Player",
+			"player",
+			"FundRequest",
+			"chipmunks",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/environments/production.rb",
+					"settings":
+					{
+						"buffer_size": 3249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1042,
+								1042
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/_header.html.erb",
+					"settings":
+					{
+						"buffer_size": 211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"footer",
+				"app/views/layouts/_footer.html.erb"
+			],
+			[
+				"hea",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"del",
+				"spec/features/delete_event_spec.rb"
+			],
+			[
+				"even",
+				"app/models/event.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"reg",
+				"app/models/registration.rb"
+			],
+			[
+				"appl",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"_for",
+				"app/views/events/_form.html.erb"
+			],
+			[
+				"eve",
+				"app/models/event.rb"
+			],
+			[
+				"sho",
+				"app/views/events/show.html.erb"
+			],
+			[
+				"appli",
+				"config/application.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"events",
+				"app/controllers/events_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/rails_studio/crowdfund/crowdfund.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true
+}
