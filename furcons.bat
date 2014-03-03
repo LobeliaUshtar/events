@@ -1,2 +1,2 @@
 cd c:\
-cd rails_studio\furcons
+cd GitHub\furcons

@@ -1,2 +1,2 @@
 cd c:\
-cd rails_studio\flix
+cd GitHub\flix
