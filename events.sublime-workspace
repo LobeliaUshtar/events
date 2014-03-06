@@ -247,14 +247,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 194,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/RSpec/RSpec.sublime-build",
 	"command_palette":
@@ -292,6 +284,10 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/events/app/views/layouts/_footer.html.erb",
+		"/C/GitHub/flix/app/views/layouts/_footer.html.erb",
+		"/C/GitHub/events/app/views/events/show.html.erb",
+		"/C/GitHub/events/.gitignore",
 		"/C/GitHub/events/furcons.bat",
 		"/C/GitHub/events/flix.bat",
 		"/C/GitHub/events/crowdfund.bat",
@@ -415,11 +411,7 @@
 		"/C/rails_studio/flix/app/assets/stylesheets/_colors.scss",
 		"/C/Ruby200/lib/ruby/2.0.0/dl.rb",
 		"/C/rails_studio/flix/spec/features/list_movies_spec.rb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/redesign/flix/spec/features/list_movies_spec.rb",
-		"/C/rails_studio/flix/app/views/movies/new.html.erb",
-		"/C/rails_studio/flix/app/views/movies/index.html.erb",
-		"/C/rails_studio/flix/app/views/movies/edit.html.erb",
-		"/C/rails_studio/flix/app/views/layouts/_sidebar.html.erb"
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/redesign/flix/spec/features/list_movies_spec.rb"
 	],
 	"find":
 	{
@@ -598,35 +590,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": ".gitignore",
-					"settings":
-					{
-						"buffer_size": 194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								194,
-								194
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -765,7 +730,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/flix/flix.sublime-project"
+				"/C/GitHub/crowdfund/crowdfund.sublime-project"
 			]
 		],
 		"width": 380.0

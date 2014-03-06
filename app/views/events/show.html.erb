@@ -25,7 +25,7 @@
   </p>
   
   <% if @event.registrations.any? %>
-    <h3><%= pluralize(@event.registrations.size, 'Registration') %></h3>
+<!--     <h3><%= pluralize(@event.registrations.size, 'Registration') %></h3>
     <ol class="registrations">
       <% @event.registrations.each do |registration| %>
         <li>
@@ -34,7 +34,7 @@
           (<%= registration.how_heard %>)
         </li>
       <% end %>
-    </ol>
+    </ol> -->
     <p>
       <%= link_to pluralize(@event.registrations.size, 'registration'), 
                   event_registrations_path(@event) %>
