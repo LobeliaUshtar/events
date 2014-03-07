@@ -248,10 +248,26 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/events/show.html.erb",
+			"file": "spec/models/user_spec.rb",
 			"settings":
 			{
-				"buffer_size": 1325,
+				"buffer_size": 2443,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/support/attributes.rb",
+			"settings":
+			{
+				"buffer_size": 590,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 255,
 				"line_ending": "Unix"
 			}
 		}
@@ -292,9 +308,21 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/events/config/application.rb",
+		"/C/GitHub/events/Gemfile",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/spec/support/attributes.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/db/seeds.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/db/schema.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/app/controllers/application_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/app/controllers/users_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/app/helpers/users_helper.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/app/models/user.rb",
+		"/C/GitHub/events/Gemfile.lock",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/spec/models/user_spec.rb",
+		"/C/GitHub/events/app/views/events/show.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/starter_app/flix/db/seeds.rb",
 		"/C/GitHub/events/app/views/layouts/_footer.html.erb",
 		"/C/GitHub/flix/app/views/layouts/_footer.html.erb",
-		"/C/GitHub/events/app/views/events/show.html.erb",
 		"/C/GitHub/events/.gitignore",
 		"/C/GitHub/events/furcons.bat",
 		"/C/GitHub/events/flix.bat",
@@ -407,19 +435,7 @@
 		"/C/rails_studio/flix/app/models/review.rb",
 		"/C/rails_studio/flix/spec/support/attributes.rb",
 		"/C/rails_studio/flix/spec/models/review_spec.rb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/21-one-to-many-models/flix/db/seeds.rb",
-		"/C/rails_studio/flix/db/test.sqlite3",
-		"/C/rails_studio/flix/db/migrate/20140218220250_create_reviews.rb",
-		"/C/rails_studio/flix/spec/features/delete_movie_spec.rb",
-		"/C/rails_studio/flix/spec/features/create_movie_spec.rb",
-		"/C/rails_studio/flix/spec/features/edit_movie_spec.rb",
-		"/C/rails_studio/flix/app/views/layouts/application.html.erb",
-		"/C/rails_studio/flix/app/controllers/application_controller.rb",
-		"/C/rails_studio/flix/app/assets/stylesheets/movies.css.scss",
-		"/C/rails_studio/flix/app/assets/stylesheets/_colors.scss",
-		"/C/Ruby200/lib/ruby/2.0.0/dl.rb",
-		"/C/rails_studio/flix/spec/features/list_movies_spec.rb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/redesign/flix/spec/features/list_movies_spec.rb"
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/pragstudio-rails-code/exercise-solutions/21-one-to-many-models/flix/db/seeds.rb"
 	],
 	"find":
 	{
@@ -438,6 +454,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"secretsecret",
+			"secret",
+			"  ",
 			"left",
 			"  ",
 			"furcon",
@@ -562,10 +581,7 @@
 			"name",
 			"  ",
 			"add.png",
-			"logo",
-			"  ",
-			"#F0F0F0",
-			"#237CBE"
+			"logo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -598,33 +614,87 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/events/show.html.erb",
+					"file": "spec/models/user_spec.rb",
 					"settings":
 					{
-						"buffer_size": 1325,
+						"buffer_size": 2443,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								860,
-								860
+								2443,
+								2443
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.y": 1246.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "spec/support/attributes.rb",
+					"settings":
+					{
+						"buffer_size": 590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								565,
+								565
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -767,7 +837,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/crowdfund/crowdfund.sublime-project"
+				"/C/GitHub/flix/flix.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -776,6 +846,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 187.0,
+	"side_bar_width": 181.0,
 	"status_bar_visible": true
 }
