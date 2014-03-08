@@ -1,9 +1,10 @@
 Events::Application.routes.draw do
-  resources :users
+	get "signup" => "users#new"
+	resources :users
 
-  root "events#index"
+	root "events#index"
 
-  resources :events do
-    resources :registrations
-  end
+	resources :events do
+		resources :registrations
+	end
 end
