@@ -92,3 +92,21 @@ describe "A user" do
 	end
 	
 end
+
+describe "authenticate" do
+	before do
+		@user = User.create!(user_attributes)
+	end
+
+	it "returns false if the email does not match" do
+		expect(User.authenticate("nomatch", @user.password)).to be_false
+	end
+
+	it "returns false if the password does not match" do
+		expect(User.authenticate(@user.email, "nomatch")).to be_false
+	end
+
+	it "returns the user if the email and password match" do
+		expect(User.authenticate(@user.email, @user.password)).to eq(@user)
+	end
+end

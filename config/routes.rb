@@ -1,7 +1,8 @@
 Events::Application.routes.draw do
 	resource :session
-	get "signup" => "users#new"
+	get "signin" => "sessions#new"
 	resources :users
+	get "signup" => "users#new"
 
 	root "events#index"
 
