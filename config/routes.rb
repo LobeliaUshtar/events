@@ -1,4 +1,5 @@
 Events::Application.routes.draw do
+	resource :session
 	get "signup" => "users#new"
 	resources :users
 

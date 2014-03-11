@@ -252,10 +252,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/models/user.rb",
+			"file": "spec/features/sign_in_spec.rb",
 			"settings":
 			{
-				"buffer_size": 254,
+				"buffer_size": 270,
 				"line_ending": "Unix"
 			}
 		},
@@ -263,32 +263,7 @@
 			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 162,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/users_controller.rb",
-			"settings":
-			{
-				"buffer_size": 785,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/users/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 198,
-				"line_ending": "Windows",
-				"name": "index.html.erb"
-			}
-		},
-		{
-			"file": "app/views/users/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 386,
+				"buffer_size": 181,
 				"line_ending": "Unix"
 			}
 		},
@@ -296,32 +271,25 @@
 			"file": "app/views/layouts/_header.html.erb",
 			"settings":
 			{
-				"buffer_size": 201,
+				"buffer_size": 265,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/users/new.html.erb",
+			"file": "app/controllers/sessions_controller.rb",
 			"settings":
 			{
-				"buffer_size": 79,
+				"buffer_size": 124,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/users/edit.html.erb",
+			"file": "app/views/sessions/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 84,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/users/_form.html.erb",
-			"settings":
-			{
-				"buffer_size": 755,
-				"line_ending": "Unix"
+				"buffer_size": 337,
+				"line_ending": "Windows",
+				"name": "new.html.erb"
 			}
 		}
 	],
@@ -361,6 +329,18 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/events/config/environments/production.rb",
+		"/C/GitHub/events/app/views/users/_form.html.erb",
+		"/C/GitHub/events/app/views/users/edit.html.erb",
+		"/C/GitHub/events/app/views/users/new.html.erb",
+		"/C/GitHub/events/app/views/layouts/_header.html.erb",
+		"/C/GitHub/events/app/controllers/users_controller.rb",
+		"/C/GitHub/events/config/routes.rb",
+		"/C/GitHub/events/app/models/user.rb",
+		"/C/GitHub/events/app/views/users/show.html.erb",
+		"/C/GitHub/events/app/views/users/index.html.erb",
+		"/C/GitHub/events/app/assets/stylesheets/application.css",
+		"/C/GitHub/events/app/assets/stylesheets/users.css.scss",
 		"/C/GitHub/events/spec/support/attributes.rb",
 		"/C/GitHub/furcons/spec/support/attributes.rb",
 		"/C/GitHub/furcons/spec/models/user_spec.rb",
@@ -372,8 +352,6 @@
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/02-user-accounts-ui/events/app/views/users/index.html.erb",
 		"/C/GitHub/events/spec/features/list_users_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/02-user-accounts-ui/events/spec/features/list_users_spec.rb",
-		"/C/GitHub/events/config/routes.rb",
-		"/C/GitHub/events/app/models/user.rb",
 		"/C/GitHub/events/events.sublime-project",
 		"/C/GitHub/events/config/application.rb",
 		"/C/GitHub/events/Gemfile",
@@ -478,17 +456,7 @@
 		"/C/rails_studio/flix/config/routes.rb",
 		"/C/rails_studio/flix/spec/features/show_movie_spec.rb",
 		"/C/rails_studio/furcons/db/migrate/20140223155307_create_furcons.rb",
-		"/C/rails_studio/furcons/db/migrate/20140223155735_add_fields_to_furcons.rb",
-		"/C/rails_studio/crowdfund/db/schema.rb",
-		"/C/rails_studio/x furcons/spec/support/attributes.rb",
-		"/C/rails_studio/crowdfund/Gemfile",
-		"/C/rails_studio/flix/db/seeds.rb",
-		"/C/rails_studio/flix/app/views/movies/show.html.erb",
-		"/C/rails_studio/flix/app/helpers/movies_helper.rb",
-		"/C/rails_studio/flix/app/models/movie.rb",
-		"/C/rails_studio/flix/spec/models/movie_spec.rb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/exercise-solutions/24-one-to-many-logic/flix/app/views/movies/show.html.erb",
-		"/C/rails_studio/flix/app/views/shared/_errors.html.erb"
+		"/C/rails_studio/furcons/db/migrate/20140223155735_add_fields_to_furcons.rb"
 	],
 	"find":
 	{
@@ -496,7 +464,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"C:\\GitHub",
@@ -508,6 +476,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"email",
 			"  ",
 			"secretsecret",
 			"  ",
@@ -634,8 +603,7 @@
 			"movies",
 			"  ",
 			"@movie",
-			"  ",
-			"name"
+			"  "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -670,27 +638,28 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/models/user.rb",
+					"file": "spec/features/sign_in_spec.rb",
 					"settings":
 					{
-						"buffer_size": 254,
+						"buffer_size": 270,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								229,
-								229
+								270,
+								270
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/RSpec/RSpec.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -703,15 +672,15 @@
 					"file": "config/routes.rb",
 					"settings":
 					{
-						"buffer_size": 162,
+						"buffer_size": 181,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								162,
-								162
+								181,
+								181
 							]
 						],
 						"settings":
@@ -726,51 +695,49 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/controllers/users_controller.rb",
+					"file": "app/views/layouts/_header.html.erb",
 					"settings":
 					{
-						"buffer_size": 785,
+						"buffer_size": 265,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								314,
-								314
+								265,
+								265
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"word_wrap": true
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "app/views/users/index.html.erb",
+					"file": "app/controllers/sessions_controller.rb",
 					"settings":
 					{
-						"buffer_size": 198,
+						"buffer_size": 124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								198,
-								198
+								120,
+								120
 							]
 						],
 						"settings":
 						{
-							"auto_name": "index.html.erb",
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -780,131 +747,24 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/views/users/show.html.erb",
+					"file": "app/views/sessions/new.html.erb",
 					"settings":
 					{
-						"buffer_size": 386,
+						"buffer_size": 337,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								375,
-								375
+								305,
+								305
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/views/layouts/_header.html.erb",
-					"settings":
-					{
-						"buffer_size": 201,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								201,
-								201
-							]
-						],
-						"settings":
-						{
+							"auto_name": "new.html.erb",
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/views/users/new.html.erb",
-					"settings":
-					{
-						"buffer_size": 79,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/views/users/edit.html.erb",
-					"settings":
-					{
-						"buffer_size": 84,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/views/users/_form.html.erb",
-					"settings":
-					{
-						"buffer_size": 755,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								657,
-								657
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -960,6 +820,22 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"sess",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"head",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"si",
+				"spec/features/sign_in_spec.rb"
+			],
 			[
 				"hea",
 				"app/views/layouts/_header.html.erb"
