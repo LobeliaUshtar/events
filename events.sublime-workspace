@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"un",
+				"unless	unless … end"
+			],
+			[
 				"user",
 				"user_id"
 			],
@@ -260,14 +264,6 @@
 	"buffers":
 	[
 		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 213,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/views/layouts/_header.html.erb",
 			"settings":
 			{
@@ -279,7 +275,7 @@
 			"file": "app/helpers/application_helper.rb",
 			"settings":
 			{
-				"buffer_size": 121,
+				"buffer_size": 29,
 				"line_ending": "Unix"
 			}
 		},
@@ -287,7 +283,7 @@
 			"file": "app/controllers/users_controller.rb",
 			"settings":
 			{
-				"buffer_size": 843,
+				"buffer_size": 900,
 				"line_ending": "Unix"
 			}
 		},
@@ -296,6 +292,14 @@
 			"settings":
 			{
 				"buffer_size": 445,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/application_controller.rb",
+			"settings":
+			{
+				"buffer_size": 449,
 				"line_ending": "Unix"
 			}
 		}
@@ -336,14 +340,23 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/events/spec/controllers/users_controller_spec.rb",
+		"/C/GitHub/events/spec/features/show_user_spec.rb",
+		"/C/GitHub/events/spec/features/edit_user_spec.rb",
+		"/C/GitHub/events/spec/features/delete_user_spec.rb",
+		"/C/GitHub/events/spec/features/list_users_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/05-authorization-1/events/spec/features/list_users_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/05-authorization-1/events/spec/features/delete_user_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/05-authorization-1/events/spec/features/edit_user_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/05-authorization-1/events/spec/controllers/users_controller_spec.rb",
+		"/C/GitHub/events/spec/helpers/users_helper_spec.rb",
+		"/C/GitHub/events/config/routes.rb",
 		"/C/GitHub/events/spec/features/sign_in_spec.rb",
 		"/C/GitHub/events/spec/features/create_user_spec.rb",
 		"/C/GitHub/events/spec/features/sign_out_spec.rb",
-		"/C/GitHub/events/spec/features/delete_user_spec.rb",
 		"/C/GitHub/events/spec/support/authentication.rb",
 		"/C/GitHub/events/app/views/sessions/new.html.erb",
 		"/C/GitHub/events/app/controllers/sessions_controller.rb",
-		"/C/GitHub/events/config/routes.rb",
 		"/C/GitHub/events/app/models/user.rb",
 		"/C/GitHub/events/spec/models/user_spec.rb",
 		"/C/GitHub/events/config/environments/production.rb",
@@ -364,7 +377,6 @@
 		"/C/GitHub/events/events.sublime-workspace",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/02-user-accounts-ui/events/db/seeds.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/02-user-accounts-ui/events/app/views/users/index.html.erb",
-		"/C/GitHub/events/spec/features/list_users_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/02-user-accounts-ui/events/spec/features/list_users_spec.rb",
 		"/C/GitHub/events/events.sublime-project",
 		"/C/GitHub/events/config/application.rb",
@@ -455,15 +467,7 @@
 		"/C/rails_studio/furcons/config/initializers/date_formats.rb",
 		"/C/rails_studio/x furcons/spec/features/show_furcon_spec.rb",
 		"/C/rails_studio/x furcons/config/routes.rb",
-		"/C/rails_studio/furcons/db/schema.rb",
-		"/C/rails_studio/x furcons/db/seeds.rb",
-		"/C/rails_studio/x furcons/spec/models/furcon_spec.rb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/exercise-solutions/09-test-first-5/flix/app/views/movies/show.html.erb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails Programming/pragstudio-rails-code/exercise-solutions/09-test-first-4/flix/app/views/movies/show.html.erb",
-		"/C/rails_studio/x furcons/app/views/furcons/show.html (Clark Snowdall's conflicted copy 2014-02-14).erb",
-		"/C/rails_studio/x furcons/spec/features/navigate_furcons_spec.rb",
-		"/C/rails_studio/x furcons/db/migrate/20140210152611_create_furcons.rb",
-		"/C/rails_studio/furcons x/app/controllers/furcons_controller.rb"
+		"/C/rails_studio/furcons/db/schema.rb"
 	],
 	"find":
 	{
@@ -645,37 +649,11 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 213,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "app/views/layouts/_header.html.erb",
 					"settings":
 					{
@@ -702,19 +680,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "app/helpers/application_helper.rb",
 					"settings":
 					{
-						"buffer_size": 121,
+						"buffer_size": 29,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								121,
-								121
+								25,
+								25
 							]
 						],
 						"settings":
@@ -728,19 +706,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "app/controllers/users_controller.rb",
 					"settings":
 					{
-						"buffer_size": 843,
+						"buffer_size": 900,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								659,
-								659
+								216,
+								216
 							]
 						],
 						"settings":
@@ -749,13 +727,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "app/controllers/sessions_controller.rb",
 					"settings":
 					{
@@ -766,8 +744,35 @@
 						"selection":
 						[
 							[
-								434,
-								434
+								445,
+								445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/application_controller.rb",
+					"settings":
+					{
+						"buffer_size": 449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								445,
+								445
 							]
 						],
 						"settings":
@@ -829,6 +834,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"appl",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"show",
+				"spec/features/show_user_spec.rb"
+			],
 			[
 				"sessio",
 				"app/controllers/sessions_controller.rb"
@@ -896,10 +909,6 @@
 			[
 				"li",
 				"spec/features/list_furcons_spec.rb"
-			],
-			[
-				"show",
-				"spec/features/show_movie_spec.rb"
 			],
 			[
 				"sho",
