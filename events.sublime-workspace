@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"curren",
+				"current_user_admin"
+			],
+			[
 				"re",
-				"require_signin"
+				"require"
 			],
 			[
 				"un",
@@ -264,10 +268,34 @@
 	"buffers":
 	[
 		{
-			"file": "app/controllers/users_controller.rb",
+			"file": "db/migrate/20140316150208_add_admin_to_users.rb",
 			"settings":
 			{
-				"buffer_size": 998,
+				"buffer_size": 122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/events_controller.rb",
+			"settings":
+			{
+				"buffer_size": 965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_sidebar.html.erb",
+			"settings":
+			{
+				"buffer_size": 313,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/events/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 1236,
 				"line_ending": "Unix"
 			}
 		},
@@ -275,31 +303,7 @@
 			"file": "app/controllers/application_controller.rb",
 			"settings":
 			{
-				"buffer_size": 574,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/helpers/application_helper.rb",
-			"settings":
-			{
-				"buffer_size": 29,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/users/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 430,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/sessions_controller.rb",
-			"settings":
-			{
-				"buffer_size": 504,
+				"buffer_size": 795,
 				"line_ending": "Unix"
 			}
 		}
@@ -340,6 +344,19 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/events/spec/helpers/registrations_helper_spec.rb",
+		"/C/GitHub/events/spec/features/edit_event_spec.rb",
+		"/C/GitHub/events/spec/features/create_event_spec.rb",
+		"/C/GitHub/events/spec/features/delete_event_spec.rb",
+		"/C/GitHub/events/spec/controllers/events_controller_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/06-admin-users/events/spec/features/edit_event_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/06-admin-users/events/spec/features/create_event_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/06-admin-users/events/spec/features/delete_event_spec.rb",
+		"/C/GitHub/events/app/controllers/sessions_controller.rb",
+		"/C/GitHub/events/app/views/users/show.html.erb",
+		"/C/GitHub/events/app/helpers/application_helper.rb",
+		"/C/GitHub/events/app/controllers/application_controller.rb",
+		"/C/GitHub/events/app/controllers/users_controller.rb",
 		"/C/GitHub/events/spec/features/sign_in_spec.rb",
 		"/C/GitHub/events/spec/features/delete_user_spec.rb",
 		"/C/GitHub/events/spec/features/edit_user_spec.rb",
@@ -348,10 +365,6 @@
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/05-authorization-2/events/spec/features/delete_user_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/05-authorization-2/events/spec/features/edit_user_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/05-authorization-2/events/spec/controllers/users_controller_spec.rb",
-		"/C/GitHub/events/app/controllers/application_controller.rb",
-		"/C/GitHub/events/app/controllers/sessions_controller.rb",
-		"/C/GitHub/events/app/controllers/users_controller.rb",
-		"/C/GitHub/events/app/helpers/application_helper.rb",
 		"/C/GitHub/events/app/views/layouts/_header.html.erb",
 		"/C/GitHub/events/spec/features/show_user_spec.rb",
 		"/C/GitHub/events/spec/features/list_users_spec.rb",
@@ -371,7 +384,6 @@
 		"/C/GitHub/events/app/views/users/_form.html.erb",
 		"/C/GitHub/events/app/views/users/edit.html.erb",
 		"/C/GitHub/events/app/views/users/new.html.erb",
-		"/C/GitHub/events/app/views/users/show.html.erb",
 		"/C/GitHub/events/app/views/users/index.html.erb",
 		"/C/GitHub/events/app/assets/stylesheets/application.css",
 		"/C/GitHub/events/app/assets/stylesheets/users.css.scss",
@@ -459,15 +471,7 @@
 		"/C/rails_studio/furcons/spec/features/show_furcon_spec.rb",
 		"/C/rails_studio/x furcons/app/helpers/furcons_helper.rb",
 		"/C/rails_studio/x furcons/app/views/furcons/_form.html.erb",
-		"/C/rails_studio/x furcons/app/controllers/furcons_controller.rb",
-		"/C/rails_studio/x furcons/spec/features/list_furcons_spec.rb",
-		"/C/rails_studio/furcons/spec/features/delete_furcon_spec.rb",
-		"/C/rails_studio/furcons/app/views/furcons/new.html.erb",
-		"/C/rails_studio/furcons/app/views/furcons/edit.html.erb",
-		"/C/rails_studio/x furcons/spec/features/delete_furcon_spec.rb",
-		"/C/rails_studio/furcons/spec/features/navigate_furcons_spec.rb",
-		"/C/rails_studio/x furcons/spec/features/create_furcon_spec.rb",
-		"/C/rails_studio/x furcons/app/views/furcons/new.html.erb"
+		"/C/rails_studio/x furcons/app/controllers/furcons_controller.rb"
 	],
 	"find":
 	{
@@ -654,72 +658,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/users_controller.rb",
+					"file": "db/migrate/20140316150208_add_admin_to_users.rb",
 					"settings":
 					{
-						"buffer_size": 998,
+						"buffer_size": 122,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								828,
-								828
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 486.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/controllers/application_controller.rb",
-					"settings":
-					{
-						"buffer_size": 574,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								287,
-								287
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/helpers/application_helper.rb",
-					"settings":
-					{
-						"buffer_size": 29,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								122,
+								122
 							]
 						],
 						"settings":
@@ -733,25 +683,54 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/views/users/show.html.erb",
+					"buffer": 1,
+					"file": "app/controllers/events_controller.rb",
 					"settings":
 					{
-						"buffer_size": 430,
+						"buffer_size": 965,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								430,
-								420
+								825,
+								825
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/_sidebar.html.erb",
+					"settings":
+					{
+						"buffer_size": 313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -760,19 +739,47 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "app/controllers/sessions_controller.rb",
+					"buffer": 3,
+					"file": "app/views/events/show.html.erb",
 					"settings":
 					{
-						"buffer_size": 504,
+						"buffer_size": 1236,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								504,
-								504
+								1236,
+								1236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/application_controller.rb",
+					"settings":
+					{
+						"buffer_size": 795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								795,
+								795
 							]
 						],
 						"settings":
@@ -835,12 +842,24 @@
 		"selected_items":
 		[
 			[
-				"sessio",
-				"app/controllers/sessions_controller.rb"
+				"app",
+				"app/controllers/application_controller.rb"
 			],
 			[
 				"sho",
-				"app/views/users/show.html.erb"
+				"app/views/events/show.html.erb"
+			],
+			[
+				"side",
+				"app/views/layouts/_sidebar.html.erb"
+			],
+			[
+				"event",
+				"app/controllers/events_controller.rb"
+			],
+			[
+				"sessio",
+				"app/controllers/sessions_controller.rb"
 			],
 			[
 				"appl",
@@ -929,10 +948,6 @@
 			[
 				"revi",
 				"app/models/review.rb"
-			],
-			[
-				"app",
-				"app/views/layouts/application.html.erb"
 			],
 			[
 				"edit",

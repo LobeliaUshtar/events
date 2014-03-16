@@ -1,15 +1,21 @@
 require 'spec_helper'
 
-describe "Deleting an event" do 
-  it "destroys the event and shows the event listing" do
-    event = Event.create(event_attributes)
-    
-    visit event_path(event)
-    
-    click_link 'Delete'
-    
-    expect(current_path).to eq(events_path)
-    expect(page).not_to have_text(event.name)
-    expect(page).to have_text('Event successfully deleted!')
-  end
+describe "Deleting an event" do
+	before do
+		admin = User.create!(user_attributes(admin: true))
+
+		sign_in(admin)
+	end
+
+	it "destroys the event and shows the event listing" do
+		event = Event.create!(event_attributes)
+		
+		visit event_path(event)
+		
+		click_link 'Delete'
+		
+		expect(current_path).to eq(events_path)
+		expect(page).not_to have_text(event.name)
+		expect(page).to have_text('Event successfully deleted!')
+	end
 end
