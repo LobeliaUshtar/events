@@ -109,4 +109,19 @@ describe "authenticate" do
 	it "returns the user if the email and password match" do
 		expect(User.authenticate(@user.email, @user.password)).to eq(@user)
 	end
+
+=begin
+	it "has liked events" do
+		user = User.new(user_attributes)
+		event1 = Event.new(event_attributes(name: "BugSmash"))
+		event2 = Event.new(event_attributes(name: "Kata Camp"))
+
+		user.likes.new(event: event1)
+		user.likes.new(event: event2)
+
+		expect(user.liked_events).to include(event1)
+		expect(user.liked_events).to include(event2)
+	end
+=end
+
 end

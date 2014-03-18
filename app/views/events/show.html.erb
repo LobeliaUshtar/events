@@ -24,31 +24,16 @@
 		<%= pluralize(@event.capacity, 'spot') %>
 	</p>
 	
-	<% if @event.registrations.any? %>
-		<h3><%= pluralize(@event.registrations.size, 'Registration') %></h3>
-		<ol class="registrations">
-			<% @event.registrations.each do |registration| %>
-				<li>
-					<%= mail_to(registration.email, registration.name) %>
-					<span class="date"><%= time_ago_in_words(registration.created_at) %> ago</span>
-					(<%= registration.how_heard %>)
-				</li>
-			<% end %>
-		</ol>
-		<p>
-			<%= link_to pluralize(@event.registrations.size, 'registration'), event_registrations_path(@event) %>
-		</p>
-	<% end %>
+	<h3>Registrations</h3>
+	<%= link_to pluralize(@event.registrations.size, 'registration'), event_registrations_path(@event) %>
 
 	<footer>
-		<nav>
 		<%= register_link_for(@event) %>
-		<% if current_user_admin? %>
-			<p>
-			<%= link_to 'Edit', edit_event_path(@event), class: 'button' %>
-			<%= link_to 'Delete', @event, class: 'button', method: :delete, data: { confirm: 'Are you sure?' } %>
-			</p>
-		<% end %>
+		<nav>
+			<% if current_user_admin? %>
+				<%= link_to 'Edit', edit_event_path(@event), class: 'button' %>
+				<%= link_to 'Delete', @event, class: 'button', method: :delete, data: { confirm: 'Are you sure?' } %>
+			<% end %>
 		</nav>
 	</footer>
 </article>

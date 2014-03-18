@@ -268,42 +268,98 @@
 	"buffers":
 	[
 		{
-			"file": "db/migrate/20140316150208_add_admin_to_users.rb",
+			"file": "spec/models/user_spec.rb",
 			"settings":
 			{
-				"buffer_size": 122,
+				"buffer_size": 3238,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/events_controller.rb",
+			"file": "db/migrate/20140318001454_make_registrations_a_join_table.rb",
 			"settings":
 			{
-				"buffer_size": 965,
+				"buffer_size": 399,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/layouts/_sidebar.html.erb",
+			"file": "app/models/registration.rb",
 			"settings":
 			{
-				"buffer_size": 313,
+				"buffer_size": 262,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/events/show.html.erb",
+			"file": "app/models/user.rb",
 			"settings":
 			{
-				"buffer_size": 1236,
+				"buffer_size": 422,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/application_controller.rb",
+			"file": "spec/models/registration_spec.rb",
 			"settings":
 			{
-				"buffer_size": 795,
+				"buffer_size": 1010,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/support/attributes.rb",
+			"settings":
+			{
+				"buffer_size": 585,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/controllers/registrations_controller_spec.rb",
+			"settings":
+			{
+				"buffer_size": 668,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "spec/features/create_registration_spec.rb",
+			"settings":
+			{
+				"buffer_size": 918,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/features/list_registrations_spec.rb",
+			"settings":
+			{
+				"buffer_size": 1116,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/registrations_controller.rb",
+			"settings":
+			{
+				"buffer_size": 636,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/registrations/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 376,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/users/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 713,
 				"line_ending": "Unix"
 			}
 		}
@@ -344,19 +400,47 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/events/spec/features/create_event_spec.rb",
+		"/C/GitHub/events/spec/features/navigate_events_spec.rb",
+		"/C/GitHub/events/app/views/registrations/new.html.erb",
+		"/C/GitHub/events/db/seeds.rb",
+		"/C/GitHub/events/app/views/events/show.html.erb",
+		"/C/GitHub/events/spec/features/list_registrations_spec.rb",
+		"/C/GitHub/events/spec/features/create_registration_spec.rb",
+		"/C/GitHub/events/spec/controllers/registrations_controller_spec.rb",
+		"/C/GitHub/events/spec/support/attributes.rb",
+		"/C/GitHub/events/spec/models/registration_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/07-many-to-many-2/events/app/views/events/show.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/07-many-to-many-2/events/spec/features/list_registrations_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/07-many-to-many-2/events/spec/features/create_registration_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/07-many-to-many-2/events/spec/support/attributes.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/07-many-to-many-2/events/spec/models/registration_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/07-many-to-many-2/events/spec/controllers/registrations_controller_spec.rb",
+		"/C/GitHub/events/spec/models/user_spec.rb",
+		"/C/GitHub/events/app/views/users/show.html.erb",
+		"/C/GitHub/events/app/controllers/users_controller.rb",
+		"/C/GitHub/events/app/views/registrations/index.html.erb",
+		"/C/GitHub/events/app/controllers/registrations_controller.rb",
+		"/C/GitHub/events/app/models/user.rb",
+		"/C/GitHub/events/app/models/registration.rb",
+		"/C/GitHub/events/db/migrate/20140318001454_make_registrations_a_join_table.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/07-many-to-many-2/events/app/views/users/show.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/07-many-to-many-1/events/spec/models/user_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/08-through-1/events/spec/models/user_spec.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/07-many-to-many-2/events/spec/models/user_spec.rb",
+		"/C/GitHub/events/app/controllers/application_controller.rb",
+		"/C/GitHub/events/app/views/layouts/_sidebar.html.erb",
+		"/C/GitHub/events/app/controllers/events_controller.rb",
+		"/C/GitHub/events/db/migrate/20140316150208_add_admin_to_users.rb",
 		"/C/GitHub/events/spec/helpers/registrations_helper_spec.rb",
 		"/C/GitHub/events/spec/features/edit_event_spec.rb",
-		"/C/GitHub/events/spec/features/create_event_spec.rb",
 		"/C/GitHub/events/spec/features/delete_event_spec.rb",
 		"/C/GitHub/events/spec/controllers/events_controller_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/06-admin-users/events/spec/features/edit_event_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/06-admin-users/events/spec/features/create_event_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/06-admin-users/events/spec/features/delete_event_spec.rb",
 		"/C/GitHub/events/app/controllers/sessions_controller.rb",
-		"/C/GitHub/events/app/views/users/show.html.erb",
 		"/C/GitHub/events/app/helpers/application_helper.rb",
-		"/C/GitHub/events/app/controllers/application_controller.rb",
-		"/C/GitHub/events/app/controllers/users_controller.rb",
 		"/C/GitHub/events/spec/features/sign_in_spec.rb",
 		"/C/GitHub/events/spec/features/delete_user_spec.rb",
 		"/C/GitHub/events/spec/features/edit_user_spec.rb",
@@ -378,8 +462,6 @@
 		"/C/GitHub/events/spec/features/sign_out_spec.rb",
 		"/C/GitHub/events/spec/support/authentication.rb",
 		"/C/GitHub/events/app/views/sessions/new.html.erb",
-		"/C/GitHub/events/app/models/user.rb",
-		"/C/GitHub/events/spec/models/user_spec.rb",
 		"/C/GitHub/events/config/environments/production.rb",
 		"/C/GitHub/events/app/views/users/_form.html.erb",
 		"/C/GitHub/events/app/views/users/edit.html.erb",
@@ -387,7 +469,6 @@
 		"/C/GitHub/events/app/views/users/index.html.erb",
 		"/C/GitHub/events/app/assets/stylesheets/application.css",
 		"/C/GitHub/events/app/assets/stylesheets/users.css.scss",
-		"/C/GitHub/events/spec/support/attributes.rb",
 		"/C/GitHub/furcons/spec/support/attributes.rb",
 		"/C/GitHub/furcons/spec/models/user_spec.rb",
 		"/C/GitHub/flix/spec/support/attributes.rb",
@@ -408,7 +489,6 @@
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/app/models/user.rb",
 		"/C/GitHub/events/Gemfile.lock",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/spec/models/user_spec.rb",
-		"/C/GitHub/events/app/views/events/show.html.erb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/starter_app/flix/db/seeds.rb",
 		"/C/GitHub/events/app/views/layouts/_footer.html.erb",
 		"/C/GitHub/flix/app/views/layouts/_footer.html.erb",
@@ -447,31 +527,7 @@
 		"/C/rails_studio/furcons/app/views/shared/_errors.html.erb",
 		"/C/rails_studio/furcons/app/views/furcons/_form.html.erb",
 		"/C/rails_studio/furcons/app/controllers/furcons_controller.rb",
-		"/C/rails_studio/furcons/app/views/furcons/show.html.erb",
-		"/C/rails_studio/furcons/app/assets/stylesheets/furcons.css.scss",
-		"/C/rails_studio/furcons/spec/features/list_memberships_spec.rb",
-		"/C/rails_studio/furcons/config/routes.rb",
-		"/C/rails_studio/furcons/db/seeds.rb",
-		"/C/rails_studio/furcons/spec/support/attributes.rb",
-		"/C/rails_studio/furcons/spec/models/furcon_spec.rb",
-		"/C/rails_studio/furcons/spec/models/membership_spec.rb",
-		"/C/rails_studio/furcons/db/migrate/20140227150102_create_memberships.rb",
-		"/C/rails_studio/furcons/spec/features/create_furcon_spec.rb",
-		"/C/rails_studio/furcons/spec/features/edit_furcon_spec.rb",
-		"/C/rails_studio/furcons/app/views/layouts/application.html.erb",
-		"/C/rails_studio/x furcons/app/views/shared/_errors.html.erb",
-		"/C/rails_studio/x furcons/app/models/furcon.rb",
-		"/C/rails_studio/furcons/spec/features/list_furcons_spec.rb",
-		"/C/rails_studio/x furcons/app/views/furcons/index.html.erb",
-		"/C/rails_studio/furcons/app/views/furcons/index.html.erb",
-		"/C/rails_studio/furcons/app/views/layouts/_footer.html.erb",
-		"/C/rails_studio/furcons/app/views/layouts/_sidebar.html.erb",
-		"/C/rails_studio/x furcons/app/views/furcons/show.html.erb",
-		"/C/rails_studio/x furcons/app/views/layouts/application.html.erb",
-		"/C/rails_studio/furcons/spec/features/show_furcon_spec.rb",
-		"/C/rails_studio/x furcons/app/helpers/furcons_helper.rb",
-		"/C/rails_studio/x furcons/app/views/furcons/_form.html.erb",
-		"/C/rails_studio/x furcons/app/controllers/furcons_controller.rb"
+		"/C/rails_studio/furcons/app/views/furcons/show.html.erb"
 	],
 	"find":
 	{
@@ -491,6 +547,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"  ",
+			"Movie",
+			"movie",
+			"  ",
+			"remove",
 			"  ",
 			"email",
 			"  ",
@@ -613,12 +674,7 @@
 			"  ",
 			"movies",
 			"Movie",
-			"  ",
-			"movies",
-			"  ",
-			"movies",
-			"  ",
-			"@movie"
+			"  "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -658,23 +714,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "db/migrate/20140316150208_add_admin_to_users.rb",
+					"file": "spec/models/user_spec.rb",
 					"settings":
 					{
-						"buffer_size": 122,
+						"buffer_size": 3238,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								122,
-								122
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -684,53 +741,51 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/controllers/events_controller.rb",
+					"file": "db/migrate/20140318001454_make_registrations_a_join_table.rb",
 					"settings":
 					{
-						"buffer_size": 965,
+						"buffer_size": 399,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								825,
-								825
+								399,
+								399
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/views/layouts/_sidebar.html.erb",
+					"file": "app/models/registration.rb",
 					"settings":
 					{
-						"buffer_size": 313,
+						"buffer_size": 262,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								313,
-								313
+								102,
+								102
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -740,51 +795,239 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/views/events/show.html.erb",
+					"file": "app/models/user.rb",
 					"settings":
 					{
-						"buffer_size": 1236,
+						"buffer_size": 422,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1236,
-								1236
+								422,
+								422
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "app/controllers/application_controller.rb",
+					"file": "spec/models/registration_spec.rb",
 					"settings":
 					{
-						"buffer_size": 795,
+						"buffer_size": 1010,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								795,
-								795
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "spec/support/attributes.rb",
+					"settings":
+					{
+						"buffer_size": 585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "spec/controllers/registrations_controller_spec.rb",
+					"settings":
+					{
+						"buffer_size": 668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "spec/features/create_registration_spec.rb",
+					"settings":
+					{
+						"buffer_size": 918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "spec/features/list_registrations_spec.rb",
+					"settings":
+					{
+						"buffer_size": 1116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/controllers/registrations_controller.rb",
+					"settings":
+					{
+						"buffer_size": 636,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/views/registrations/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								376,
+								376
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/views/users/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -842,12 +1085,52 @@
 		"selected_items":
 		[
 			[
-				"app",
-				"app/controllers/application_controller.rb"
+				"create",
+				"spec/features/create_registration_spec.rb"
+			],
+			[
+				"list",
+				"spec/features/list_registrations_spec.rb"
+			],
+			[
+				"attr",
+				"spec/support/attributes.rb"
+			],
+			[
+				"reg",
+				"spec/controllers/registrations_controller_spec.rb"
+			],
+			[
+				"revi",
+				"spec/features/navigate_events_spec.rb"
 			],
 			[
 				"sho",
-				"app/views/events/show.html.erb"
+				"app/views/users/show.html.erb"
+			],
+			[
+				"inde",
+				"app/views/registrations/index.html.erb"
+			],
+			[
+				"new",
+				"app/views/registrations/new.html.erb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"re",
+				"app/models/registration.rb"
+			],
+			[
+				"show",
+				"app/views/users/show.html.erb"
+			],
+			[
+				"app",
+				"app/controllers/application_controller.rb"
 			],
 			[
 				"side",
@@ -868,14 +1151,6 @@
 			[
 				"applica",
 				"app/controllers/application_controller.rb"
-			],
-			[
-				"user",
-				"app/controllers/users_controller.rb"
-			],
-			[
-				"show",
-				"spec/features/show_user_spec.rb"
 			],
 			[
 				"route",
@@ -944,10 +1219,6 @@
 			[
 				"movie",
 				"app/models/movie.rb"
-			],
-			[
-				"revi",
-				"app/models/review.rb"
 			],
 			[
 				"edit",

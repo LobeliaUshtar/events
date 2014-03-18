@@ -1,7 +1,8 @@
 def event_attributes(overrides = {})
+	random_number = (0..9).to_a.shuffle[0..10].join
 	{
-		name: "BugSmash", 
-		location: "Denver",		 
+		name: "BugSmash #{random_number}",
+		location: "Denver",
 		price: 10.00,
 		description: 'A fun evening of bug smashing!',
 		starts_at: 10.days.from_now,
@@ -12,9 +13,7 @@ end
 
 def registration_attributes(overrides = {})
 	{
-		name: "Joe Developer", 
-		email: "joe@gmail.com",
-		how_heard: "Twitter"		 
+		how_heard: "Twitter"
 	}.merge(overrides)
 end
 
