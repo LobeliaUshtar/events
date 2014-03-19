@@ -91,26 +91,24 @@ describe "A user" do
 		expect(user.password_digest).to be_present
 	end
 	
-end
+	describe "authenticate" do
+		before do
+			@user = User.create!(user_attributes)
+		end
 
-describe "authenticate" do
-	before do
-		@user = User.create!(user_attributes)
+		it "returns false if the email does not match" do
+			expect(User.authenticate("nomatch", @user.password)).to be_false
+		end
+		
+		it "returns false if the password does not match" do
+			expect(User.authenticate(@user.email, "nomatch")).to be_false
+		end
+
+		it "returns the user if the email and password match" do
+			expect(User.authenticate(@user.email, @user.password)).to eq(@user)
+		end
 	end
 
-	it "returns false if the email does not match" do
-		expect(User.authenticate("nomatch", @user.password)).to be_false
-	end
-
-	it "returns false if the password does not match" do
-		expect(User.authenticate(@user.email, "nomatch")).to be_false
-	end
-
-	it "returns the user if the email and password match" do
-		expect(User.authenticate(@user.email, @user.password)).to eq(@user)
-	end
-
-=begin
 	it "has liked events" do
 		user = User.new(user_attributes)
 		event1 = Event.new(event_attributes(name: "BugSmash"))
@@ -122,6 +120,4 @@ describe "authenticate" do
 		expect(user.liked_events).to include(event1)
 		expect(user.liked_events).to include(event2)
 	end
-=end
-
 end

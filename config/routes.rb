@@ -1,4 +1,5 @@
 Events::Application.routes.draw do
+	
 	resource :session
 	get "signin" => "sessions#new"
 	resources :users
@@ -8,5 +9,6 @@ Events::Application.routes.draw do
 
 	resources :events do
 		resources :registrations
+		resources :likes
 	end
 end
