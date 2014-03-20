@@ -193,4 +193,64 @@ describe "An event" do
 		expect(event.likers).to include(liker2)
 	end
 	
+	context "past query" do
+		it "returns the events with a starts at date in the past" do
+			event = Event.create!(event_attributes(starts_at: 3.months.ago))
+
+			expect(Event.past).to include(event)
+		end
+
+		it "does not return events with a starts at date in the future" do
+			event = Event.create!(event_attributes(starts_at: 3.months.from_now))
+
+			expect(Event.past).not_to include(event)
+		end
+
+		it "returns past events ordered with the soonest event first" do
+			event1 = Event.create!(event_attributes(starts_at: 3.months.ago))
+			event2 = Event.create!(event_attributes(starts_at: 2.months.ago))
+			event3 = Event.create!(event_attributes(starts_at: 1.month.ago))
+
+			expect(Event.past).to eq([event1, event2, event3])
+		end
+	end
+
+	context "free query" do
+		it "returns upcoming events with a $0 price" do
+			event = Event.create!(event_attributes(starts_at: 3.months.from_now, price: 0))
+
+			expect(Event.free).to include(event)
+		end
+		
+		it "does not return upcoming events with a non-$0 price" do
+			event = Event.create!(event_attributes(starts_at: 3.months.from_now, price: 10))
+
+			expect(Event.free).not_to include(event)
+		end
+		
+		it "does not return past events with a $0 price" do
+			event = Event.create!(event_attributes(starts_at: 1.month.ago, price: 0))
+
+			expect(Event.free).not_to include(event)
+		end
+	end
+
+	context "recent query" do
+		before do
+			@event1 = Event.create!(event_attributes(starts_at: 3.months.ago))
+			@event2 = Event.create!(event_attributes(starts_at: 2.months.ago))
+			@event3 = Event.create!(event_attributes(starts_at: 1.month.ago))
+			@event4 = Event.create!(event_attributes(starts_at: 1.week.ago))
+			@event5 = Event.create!(event_attributes(starts_at: 3.months.from_now))
+		end
+
+		it "returns a specified number of past events ordered with the most recent event first" do
+			expect(Event.recent(2)).to eq([@event1, @event2])
+		end
+
+		it "returns a default of 3 past events ordered with the most recent event first" do
+			expect(Event.recent).to eq([@event1, @event2, @event3])
+		end
+	end
+	
 end

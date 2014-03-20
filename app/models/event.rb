@@ -20,11 +20,12 @@ class Event < ActiveRecord::Base
 	has_many :likers, through: :likes, source: :user
 	has_many :categorizations, dependent: :destroy
 	has_many :categories, through: :categorizations
-	
-	def self.upcoming
-		where('starts_at >= ?', Time.now).order(:starts_at)
-	end
-	
+
+	scope :past, -> {where('starts_at < ?', Time.now).order(:starts_at)}
+	scope :upcoming, -> {where('starts_at >= ?', Time.now).order(:starts_at)}
+	scope :free, -> {upcoming.where(price: 0).order(:name)}
+	scope :recent, ->(max=3) {past.limit(max)}
+
 	def self.inexpensive
 		where('price <= 15').order('price DESC')
 	end
