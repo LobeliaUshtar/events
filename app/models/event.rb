@@ -1,4 +1,5 @@
 class Event < ActiveRecord::Base
+
 	validates :name, :location, presence: true
 	
 	validates :description, length: { minimum: 25 }
@@ -17,6 +18,8 @@ class Event < ActiveRecord::Base
 	has_many :registrations, dependent: :destroy
 	has_many :likes, dependent: :destroy
 	has_many :likers, through: :likes, source: :user
+	has_many :categorizations, dependent: :destroy
+	has_many :categories, through: :categorizations
 	
 	def self.upcoming
 		where('starts_at >= ?', Time.now).order(:starts_at)

@@ -1,12 +1,14 @@
 require 'spec_helper'
 
-describe "Creating a new event" do
+describe "Creating a new event" do 
 	before do
 		admin = User.create!(user_attributes(admin: true))
-
 		sign_in(admin)
+		
+		@category1 = Category.create!(name: "Category 1")
+		@category2 = Category.create!(name: "Category 2")
 	end
-
+	
 	it "saves the event and shows the new event's details" do
 		visit events_url
 		
@@ -21,20 +23,24 @@ describe "Creating a new event" do
 		select (Time.now.year + 1).to_s, from: "event_starts_at_1i" # must be in future
 		fill_in "event_capacity", with: "75"
 		fill_in "event_image_file_name", with: "event.png"
+		check(@category1.name)
+		check(@category2.name)
 		
 		click_button 'Create Event'
 
-		expect(current_path).to eq(event_path(Event.last))	 
+		expect(current_path).to eq(event_path(Event.last))
 		
 		expect(page).to have_text('New Event Name')
 		expect(page).to have_text('Event successfully created!')
+		expect(page).to have_text(@category1.name)
+		expect(page).to have_text(@category2.name)
 	end
 	
 	it "does not save the event if it's invalid" do
 		visit new_event_url
 		
 		expect { 
-			click_button 'Create Event' 
+			click_button 'Create Event'
 		}.not_to change(Event, :count)
 				
 		expect(page).to have_text('error')

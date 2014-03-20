@@ -1,5 +1,7 @@
 Events::Application.routes.draw do
 	
+  resources :categories
+
 	resource :session
 	get "signin" => "sessions#new"
 	resources :users

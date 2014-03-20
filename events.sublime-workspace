@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ca",
+				"categorizations"
+			],
+			[
 				"if",
 				"if	if … end"
 			],
@@ -200,10 +204,6 @@
 				"found_treasure"
 			],
 			[
-				"ca",
-				"carbs"
-			],
-			[
 				"fou",
 				"found_treasure"
 			],
@@ -276,10 +276,42 @@
 	"buffers":
 	[
 		{
-			"file": "config/routes.rb",
+			"file": "spec/features/create_event_spec.rb",
 			"settings":
 			{
-				"buffer_size": 234,
+				"buffer_size": 1338,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/seeds.rb",
+			"settings":
+			{
+				"buffer_size": 4937,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/category.rb",
+			"settings":
+			{
+				"buffer_size": 184,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/categorization.rb",
+			"settings":
+			{
+				"buffer_size": 86,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/event.rb",
+			"settings":
+			{
+				"buffer_size": 1276,
 				"line_ending": "Unix"
 			}
 		},
@@ -287,15 +319,7 @@
 			"file": "app/controllers/events_controller.rb",
 			"settings":
 			{
-				"buffer_size": 1086,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/likes_controller.rb",
-			"settings":
-			{
-				"buffer_size": 534,
+				"buffer_size": 1138,
 				"line_ending": "Unix"
 			}
 		},
@@ -303,7 +327,15 @@
 			"file": "app/views/events/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 1257,
+				"buffer_size": 1376,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/events/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 1140,
 				"line_ending": "Unix"
 			}
 		}
@@ -344,7 +376,18 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/events/app/assets/stylesheets/normalize.css",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/09-checkboxes/events/app/assets/stylesheets/normalize.css",
+		"/C/GitHub/events/app/controllers/categories_controller.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/09-checkboxes/events/app/views/events/show.html.erb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/09-checkboxes/events/db/seeds.rb",
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/09-checkboxes/events/spec/features/create_event_spec.rb",
+		"/C/GitHub/events/spec/features/create_event_spec.rb",
+		"/C/GitHub/events/db/seeds.rb",
+		"/C/GitHub/events/app/views/events/show.html.erb",
 		"/C/GitHub/events/app/controllers/likes_controller.rb",
+		"/C/GitHub/events/app/controllers/events_controller.rb",
+		"/C/GitHub/events/config/routes.rb",
 		"/C/GitHub/events/app/assets/stylesheets/buttons.css.scss",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/08-through-2/events/Gemfile",
 		"/C/GitHub/events/Gemfile",
@@ -355,11 +398,8 @@
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/08-through-2/events/app/assets/stylesheets/likes.css.scss",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/08-through-2/events/app/views/events/_form.html.erb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/08-through-2/events/app/views/events/show.html.erb",
-		"/C/GitHub/events/app/views/events/show.html.erb",
-		"/C/GitHub/events/config/routes.rb",
 		"/C/GitHub/events/app/views/users/show.html.erb",
 		"/C/GitHub/events/app/controllers/users_controller.rb",
-		"/C/GitHub/events/app/controllers/events_controller.rb",
 		"/C/GitHub/events/app/models/user.rb",
 		"/C/GitHub/events/app/models/event.rb",
 		"/C/GitHub/events/app/models/like.rb",
@@ -382,10 +422,8 @@
 		"/C/GitHub/events/spec/models/registration_spec.rb",
 		"/C/GitHub/events/app/models/registration.rb",
 		"/C/GitHub/events/db/migrate/20140318001454_make_registrations_a_join_table.rb",
-		"/C/GitHub/events/spec/features/create_event_spec.rb",
 		"/C/GitHub/events/spec/features/navigate_events_spec.rb",
 		"/C/GitHub/events/app/views/registrations/new.html.erb",
-		"/C/GitHub/events/db/seeds.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/07-many-to-many-2/events/app/views/events/show.html.erb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/07-many-to-many-2/events/spec/features/list_registrations_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/07-many-to-many-2/events/spec/features/create_registration_spec.rb",
@@ -465,13 +503,7 @@
 		"/C/GitHub/furcons/events.bat",
 		"/C/GitHub/furcons/flix.bat",
 		"/C/rails_studio/crowdfund/.gitignore",
-		"/C/GitHub/furcons/.gitignore",
-		"/C/rails_studio/furcons/app/views/layouts/_header.html.erb",
-		"/C/rails_studio/furcons/config/environments/production.rb",
-		"/C/rails_studio/furcons/Gemfile",
-		"/C/rails_studio/furcons/.rspec",
-		"/C/rails_studio/furcons/.gitignore",
-		"/C/Users/Gabby/.ssh/github_rsa.pub"
+		"/C/GitHub/furcons/.gitignore"
 	],
 	"find":
 	{
@@ -479,7 +511,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 			"C:\\GitHub",
@@ -491,6 +523,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"  ",
+			"checkbox",
 			"  ",
 			"user",
 			"likers",
@@ -616,9 +650,7 @@
 			"Movie",
 			"movies",
 			"  ",
-			"Movie",
-			"movies",
-			"  "
+			"Movie"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -653,28 +685,29 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config/routes.rb",
+					"file": "spec/features/create_event_spec.rb",
 					"settings":
 					{
-						"buffer_size": 234,
+						"buffer_size": 1338,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								34,
-								34
+								251,
+								251
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -685,18 +718,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/controllers/events_controller.rb",
+					"file": "db/seeds.rb",
 					"settings":
 					{
-						"buffer_size": 1086,
+						"buffer_size": 4937,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								373,
-								159
+								4937,
+								4937
 							]
 						],
 						"settings":
@@ -705,31 +738,30 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2538.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/controllers/likes_controller.rb",
+					"file": "app/models/category.rb",
 					"settings":
 					{
-						"buffer_size": 534,
+						"buffer_size": 184,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								453,
-								453
+								128,
+								36
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -739,23 +771,132 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/views/events/show.html.erb",
+					"file": "app/models/categorization.rb",
 					"settings":
 					{
-						"buffer_size": 1257,
+						"buffer_size": 86,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								373,
-								373
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/models/event.rb",
+					"settings":
+					{
+						"buffer_size": 1276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/controllers/events_controller.rb",
+					"settings":
+					{
+						"buffer_size": 1138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1138,
+								1138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/events/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 1376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/events/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 1140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								873,
+								873
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -813,6 +954,30 @@
 		"selected_items":
 		[
 			[
+				"form",
+				"app/views/events/_form.html.erb"
+			],
+			[
+				"sho",
+				"app/views/events/show.html.erb"
+			],
+			[
+				"cat",
+				"app/controllers/categories_controller.rb"
+			],
+			[
+				"event",
+				"app/controllers/events_controller.rb"
+			],
+			[
+				"cate",
+				"app/models/categorization.rb"
+			],
+			[
+				"create",
+				"spec/features/create_event_spec.rb"
+			],
+			[
 				"even",
 				"app/controllers/events_controller.rb"
 			],
@@ -837,20 +1002,12 @@
 				"app/controllers/users_controller.rb"
 			],
 			[
-				"event",
-				"app/controllers/events_controller.rb"
-			],
-			[
 				"events",
 				"spec/controllers/events_controller_spec.rb"
 			],
 			[
 				"users",
 				"spec/models/user_spec.rb"
-			],
-			[
-				"create",
-				"spec/features/create_registration_spec.rb"
 			],
 			[
 				"list",
@@ -867,10 +1024,6 @@
 			[
 				"revi",
 				"spec/features/navigate_events_spec.rb"
-			],
-			[
-				"sho",
-				"app/views/users/show.html.erb"
 			],
 			[
 				"inde",
