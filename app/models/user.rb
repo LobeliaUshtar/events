@@ -11,6 +11,9 @@ class User < ActiveRecord::Base
 
 	validates :password, length: { minimum: 5, allow_blank: true }
 
+	scope :by_name, -> { order(:name) }
+	scope :not_admins, -> { by_name.where(admin: false) }
+
 	def self.authenticate(email, password)
 		user = User.find_by(email: email)
 		user && user.authenticate(password)

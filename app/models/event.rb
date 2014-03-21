@@ -25,10 +25,13 @@ class Event < ActiveRecord::Base
 	scope :upcoming, -> {where('starts_at >= ?', Time.now).order(:starts_at)}
 	scope :free, -> {upcoming.where(price: 0).order(:name)}
 	scope :recent, ->(max=3) {past.limit(max)}
+	scope :past_n_days, ->(days) { where('created_at >= ?', days.days.ago) }
+	scope :inexpensive, -> { where('price <= 15').order('price DESC') }
+	scope :everything, -> { order(starts_at: :asc) }
 
-	def self.inexpensive
-		where('price <= 15').order('price DESC')
-	end
+	# def self.inexpensive
+	# 	where('price <= 15').order('price DESC')
+	# end
 		
 	def free?
 		price.blank? || price.zero?
