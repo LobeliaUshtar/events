@@ -3,7 +3,7 @@ require 'spec_helper'
 describe "Viewing an individual event" do
 	
 	it "shows the event's details" do
-		event = Event.create(event_attributes)
+		event = Event.create!(event_attributes)
 		
 		visit event_url(event)
 		
@@ -16,7 +16,7 @@ describe "Viewing an individual event" do
 	end
 	
 	it "shows the price if the price is not $0" do
-		event = Event.create(event_attributes(price: 10.00))
+		event = Event.create!(event_attributes(price: 10.00))
 		
 		visit event_url(event)
 		
@@ -24,7 +24,7 @@ describe "Viewing an individual event" do
 	end
 	
 	it "shows 'Free' if the price is $0" do
-		event = Event.create(event_attributes(price: 0.00))
+		event = Event.create!(event_attributes(price: 0.00))
 	
 		visit event_url(event)
 	
@@ -54,5 +54,13 @@ describe "Viewing an individual event" do
 		visit event_url(event)
 
 		expect(page).to have_title("Events - #{event.name}")
+	end
+
+	it "has an SEO-friendly URL" do
+		event = Event.create!(event_attributes(name: "Code & Coffee"))
+
+		visit event_url(event)
+
+		expect(current_path).to eq("/events/code-coffee")
 	end
 end

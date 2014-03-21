@@ -253,4 +253,25 @@ describe "An event" do
 		end
 	end
 	
+	it "requires a unique name" do
+		event1 = Event.create!(event_attributes)
+
+		event2 = Event.new(name: event1.name)
+		expect(event2.valid?).to be_false
+		expect(event2.errors[:name].first).to eq("has already been taken")
+	end
+
+	it "requires a unique slug" do
+		event1 = Event.create!(event_attributes)
+
+		event2 = Event.new(slug: event1.slug)
+		expect(event2.valid?).to be_false
+		expect(event2.errors[:slug].first).to eq("has already been taken")
+	end
+
+	it "generates a slug when it's created" do
+		event = Event.create!(event_attributes(name: "Code & Coffee"))
+
+		expect(event.slug).to eq("code-coffee")
+	end
 end
