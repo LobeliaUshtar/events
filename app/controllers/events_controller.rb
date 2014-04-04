@@ -11,7 +11,7 @@ class EventsController < ApplicationController
 			@events = Event.free
 		when "recent"
 			@events = Event.recent
-		when "all"
+		when "everything"
 			@events = Event.everything
 		else
 			@events = Event.upcoming
