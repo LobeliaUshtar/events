@@ -279,14 +279,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/controllers/events_controller.rb",
-			"settings":
-			{
-				"buffer_size": 1336,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/RSpec/RSpec.sublime-build",
 	"command_palette":
@@ -324,6 +316,8 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/events/.gitignore",
+		"/C/GitHub/events/app/controllers/events_controller.rb",
 		"/C/GitHub/events/app/views/layouts/_sidebar.html.erb",
 		"/C/GitHub/events/app/views/events/index.html.erb",
 		"/C/GitHub/events/app/models/event.rb",
@@ -335,7 +329,6 @@
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/13-friendly-urls/events/db/seeds.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/13-friendly-urls/events/spec/models/event_spec.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/13-friendly-urls/events/spec/features/show_event_spec.rb",
-		"/C/GitHub/events/app/controllers/events_controller.rb",
 		"/C/GitHub/events/config/routes.rb",
 		"/C/GitHub/events/spec/features/navigate_events_spec.rb",
 		"/C/GitHub/events/spec/features/filter_events_spec.rb",
@@ -450,8 +443,7 @@
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/app/controllers/application_controller.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/app/controllers/users_controller.rb",
 		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/app/helpers/users_helper.rb",
-		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/app/models/user.rb",
-		"/C/GitHub/events/Gemfile.lock"
+		"/C/Users/Gabby/Ruby/The Pragmatic Studio/Ruby on Rails II/pragstudio-rails-ii-code/example-app/01-user-accounts-model/events/app/models/user.rb"
 	],
 	"find":
 	{
@@ -633,36 +625,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/controllers/events_controller.rb",
-					"settings":
-					{
-						"buffer_size": 1336,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								395,
-								395
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -921,7 +885,7 @@
 		[
 			[
 				"",
-				"/C/GitHub/furcons/furcons.sublime-project"
+				"/C/GitHub/Flicks/flicks.sublime-project"
 			]
 		],
 		"width": 380.0
